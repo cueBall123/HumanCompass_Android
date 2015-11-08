@@ -18,4 +18,9 @@
         android:text="Launch Sports Watchapp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
+    <fragment
+        class="com.here.android.mpa.mapping.MapFragment"
+        android:id="@+id/mapfragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </RelativeLayout>
