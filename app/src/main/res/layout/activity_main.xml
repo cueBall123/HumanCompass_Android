@@ -18,6 +18,18 @@
         android:text="Launch Sports Watchapp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
+    <android.widget.Button
+        android:id="@+id/directionsbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_button_getdirections"
+        android:onClick="getDirections" />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_routecoordinates_2waypoints"
+        tools:context=".MainActivity" />
     <fragment
         class="com.here.android.mpa.mapping.MapFragment"
         android:id="@+id/mapfragment"

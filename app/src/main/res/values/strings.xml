@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">TrafficAlarm</string>
-
+    <string name="label_button_getdirections">
+      Get Directions
+    </string>
+    <string name="textview_routecoordinates_2waypoints">
+      Press "Get Directions" button to calculate a route:\nStart: Nokia, Burnaby\nEnd: Airport, YVR
+    </string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>
