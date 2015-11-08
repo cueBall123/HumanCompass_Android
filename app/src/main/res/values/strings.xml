@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TrafficAlarm</string>
+    <string name="app_name">Human Compass</string>
     <string name="label_button_getdirections">
       Get Directions
     </string>
